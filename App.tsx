@@ -73,8 +73,9 @@ function App(): JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <View>
+      <About/>
         <Home/>
-        <About/>
+        <Text className='text-red-500'>Hello Here again</Text>
       </View>
 
     </SafeAreaView>
